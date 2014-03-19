@@ -16,7 +16,7 @@ module RedactorRails
 
             delegate :url, :path, :styles, :size, :content_type, to: :data
 
-            validates_attachment_content_type :data, content_type: [ 'image/jpeg', 'image/png', 'image/gif' ]
+            do_not_validate_attachment_file_type :data
           end
         end
       end
