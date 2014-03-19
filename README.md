@@ -1,4 +1,6 @@
-# Rails 3.2 Integration for Redactor (NO Devise Edition)
+# Rails 3.2..4 Integration for Redactor (NO Devise Edition)
+
+Forked and fixed content_type validation bug with new Paperclip version.
 
 The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
 
